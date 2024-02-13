@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nextuple-frontend/static/css/main.b6a5636a.css",
-    "main.js": "/nextuple-frontend/static/js/main.2350c63a.js",
+    "main.js": "/nextuple-frontend/static/js/main.593e4b68.js",
     "static/js/592.deae3a62.chunk.js": "/nextuple-frontend/static/js/592.deae3a62.chunk.js",
     "index.html": "/nextuple-frontend/index.html",
     "main.b6a5636a.css.map": "/nextuple-frontend/static/css/main.b6a5636a.css.map",
-    "main.2350c63a.js.map": "/nextuple-frontend/static/js/main.2350c63a.js.map",
+    "main.593e4b68.js.map": "/nextuple-frontend/static/js/main.593e4b68.js.map",
     "592.deae3a62.chunk.js.map": "/nextuple-frontend/static/js/592.deae3a62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6a5636a.css",
-    "static/js/main.2350c63a.js"
+    "static/js/main.593e4b68.js"
   ]
 }
