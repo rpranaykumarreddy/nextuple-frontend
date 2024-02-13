@@ -11,7 +11,7 @@ const notesSlice = createSlice({
         addNote: (state, action) => {
             const { title, note, themes } = action.payload;
             const nid = nanoid();
-            const createdAt = new Date().getTime().toString();
+            const createdAt = new Date().getTime();
             state.notes[nid] = {
                 title: [title],
                 note: [note],
