@@ -217,7 +217,8 @@ export default function NotesList() {
                         // <NoteCard noteKey={noteKey} key={noteKey} />
                         <NoteGlimpses noteKey={noteKey} key={noteKey} />
                     ))} */}
-                        <Card
+
+                        {filteredNotes.length < 1 ? <h3>No Matching Notes</h3> : <Card
                             sx={{
                                 width: '90vw',
                                 borderRadius: 1,
@@ -242,7 +243,7 @@ export default function NotesList() {
                                 />
                             </div>
                         </Card>
-                        {filteredNotes.length < 1 && <h3>No Matching Notes</h3>}
+                        }
                     </div>
                 </>
                 <Menu
