@@ -111,6 +111,7 @@ export default function NoteForm({ onClose }) {
                     limitTags={2}
                     id="multiple-limit-tags"
                     options={options}
+                    noOptionsText={'Press enter to add this theme'}
                     renderInput={(params) => {
                         return (
                             <TextField
